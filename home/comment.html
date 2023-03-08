@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<center>
+<form>
+  <input type="text" id="comment" placeholder="Enter your comment" style="width:200px;height:100px;" /><br />
+  <input type="submit" value="Ok" id="Ok"/>
+  <input type="reset" value="Cancel"  />
+</form>
+</center>
+</body>
+<script type="text/javascript">
+var ok=document.getElementById("Ok");
+ok.onclick=function()
+{
+	var com=document.getElementById("comment");	
+	alert(com.value);
+	window.close();
+};
+</script>
+</html>

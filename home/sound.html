@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sound</title>
+</head>
+<body bgcolor="#CCCCCC">
+<center>
+<audio controls id="audio">
+<source src="../mount video/Is-Eyjafjallajökull_(3).oga" type="audio/mepg" />
+<source src="../mount video/Is-Eyjafjallajökull_(3).oga" type="audio/ogg" />
+
+</audio><br>
+<input type="reset" value="cancle" id="cancle">
+</center>
+
+</body>
+<script type="text/javascript">
+var cancle=document.getElementById("cancle");
+cancle.onclick=function()
+{
+	var so=document.getElementById("sound");	
+	
+	window.close();
+};
+</script>
+</html>
